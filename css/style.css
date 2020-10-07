@@ -4,8 +4,9 @@ body {
 }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.8;
+  border-bottom: #f5dfbb 3px solid;
+
+  background: #e15554 !important;
 }
 
 #home-section {
@@ -21,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 700px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(54, 21, 21, 0.7);
 }
 
 #home-section .home-inner {
