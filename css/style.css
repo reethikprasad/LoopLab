@@ -5,8 +5,6 @@ body {
 
 .navbar {
   border-bottom: #f5dfbb 3px solid;
-
-  background: #e15554 !important;
 }
 
 #home-section {
@@ -31,4 +29,29 @@ body {
 
 #home-section .card-form {
   opacity: 0.8;
+}
+
+#curved {
+  border-radius: 8px;
+}
+
+#curved-2 {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #e15554;
 }
